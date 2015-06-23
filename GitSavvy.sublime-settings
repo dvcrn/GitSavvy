@@ -134,10 +134,5 @@
         NOTE: Changes you make may break in-view functionality, so use with caution.
      */
     // "git_graph_args": ["log", "--pretty=format:%h%d (%ar) by `%an` %s", "--graph"],
-    "git_graph_args": ["log", "--oneline", "--graph", "--decorate"],
-
-    /*
-        Set to False to abort commit and drop message without a prompt
-    */
-    "prompt_on_abort_commit": false
+    "git_graph_args": ["log", "--oneline", "--graph", "--decorate"]
 }
